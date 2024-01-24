@@ -5,7 +5,7 @@ import { Experience } from './components/Experience';
 import { Projects } from './components/Projects';
 import { Contact } from './components/Contact';
 import { MiFooter } from './components/MiFooter';
-import { EXPERIENCE, PROJECTS } from './utils/data';
+import { EXPERIENCE, PROJECTS, SKILLS } from './utils/data';
 import { Skills } from './components/Skills';
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
 					<Hero />
 					<Projects id="prodjects" data={PROJECTS} />
 					<Experience id="experience" data={EXPERIENCE} />
-					<Skills />
+					<Skills id="skills" data={SKILLS} />
 					<Contact />
 					<MiFooter />
 				</div>

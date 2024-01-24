@@ -1,45 +1,27 @@
 import React from 'react';
 import { GiSkills } from 'react-icons/gi';
-import logo from '../assets/img/logo.png';
 
-export const Skills = () => {
+export const Skills = ({ data }) => {
 	return (
 		<div className="w-full mx-auto lg:w-[740px] py-10">
 			<h2 className="flex gap-x-2 items-center text-2xl font-semibold mb-10">
 				<GiSkills className="size-5 " />
 				Habilidades
 			</h2>
-			<div className="flex flex-wrap ">
-				<div className=" mx-auto ">
-					<div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg ">
-						<img src={logo} alt="" className="sm:[200px] w-[300px] lg:w-[200px] " />
+
+			<div className="flex flex-wrap justify-center mr-4">
+				{data.map((skill, index) => (
+					<div
+						key={index}
+						className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg m-1 bg-gray-800/20"
+					>
+						<img
+							src={skill.img}
+							alt="title"
+							className="md:w-[200px] lg:w-[150px] object-cover h-50 w-50"
+						/>
 					</div>
-				</div>
-				<div className="mx-auto">
-					<div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg">
-						<img src={logo} alt="" className="w-[300px] lg:w-[200px]" />
-					</div>
-				</div>
-				<div className="mx-auto">
-					<div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg ">
-						<img src={logo} alt="" className="w-[300px] lg:w-[200px]" />
-					</div>
-				</div>
-				<div className="mx-auto">
-					<div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg">
-						<img src={logo} alt="" className="w-[300px] lg:w-[200px]" />
-					</div>
-				</div>
-				<div className="mx-auto">
-					<div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg">
-						<img src={logo} alt="" className="w-[300px] lg:w-[200px]" />
-					</div>
-				</div>
-				<div className="mx-auto">
-					<div className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg">
-						<img src={logo} alt="" className="w-[300px] lg:w-[200px]" />
-					</div>
-				</div>
+				))}
 			</div>
 		</div>
 	);
