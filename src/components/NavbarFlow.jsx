@@ -5,9 +5,9 @@ export const NavbarFlow = () => {
 	return (
 		<Navbar className="bg-dark flex justify-between items-center py-5 xl:w-[1120px] mx-auto">
 			<Navbar.Brand>
-				<img src={logo} className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
+				<img src={logo} className="mr-1 h-9 sm:h-9" alt="Flowbite React Logo" />
 				<span className="self-center whitespace-nowrap text-xl font-bold dark:text-white">
-					Martin
+					Martín Cásares
 				</span>
 			</Navbar.Brand>
 			<Navbar.Toggle />

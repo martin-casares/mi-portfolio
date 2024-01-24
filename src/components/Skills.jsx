@@ -13,12 +13,12 @@ export const Skills = ({ data }) => {
 				{data.map((skill, index) => (
 					<div
 						key={index}
-						className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg m-1 bg-gray-800/20"
+						className="shadow-md hover:scale-105 duration-500 py-2 rounded-lg m-1 bg-gray-800/20 mr-2"
 					>
 						<img
 							src={skill.img}
 							alt="title"
-							className="md:w-[200px] lg:w-[150px] object-cover h-50 w-50"
+							className="w-[90px] md:w-[200px] lg:w-[150px]  object-cover h-50 w-50"
 						/>
 					</div>
 				))}
