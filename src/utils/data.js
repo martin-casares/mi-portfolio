@@ -1,52 +1,30 @@
-/* import backend from '../assets/images/backend.png';
-import frontend from '../assets/images/frontend.png';
-import tools from '../assets/images/tools.png';
-import softskills from '../assets/images/softskills. png';*/
+import html from '../assets/img/html.jpg';
+import css from '../assets/img/css.jpg';
+import node from '../assets/img/node.png';
+import js from '../assets/img/js.png';
+import react from '../assets/img/react.png';
+import mongo from '../assets/img/mongo.png';
+import bootstrap from '../assets/img/bootstrap.png';
+import linux from '../assets/img/linux.png';
+import git from '../assets/img/git.png';
+import github from '../assets/img/github.png';
+import express from '../assets/img/express-js.png';
+import tailwinds from '../assets/img/tailwind.jpeg';
 
-/* export const SKILLS = [
-	{
-		title: 'Frontend',
-		icon: frontend,
-		skills: [
-			{ skill: 'HTML5', percentage: '80%' },
-			{ skill: 'CSS3', percentage: '90%' },
-			{ skill: 'JavaScript', percentage: '75%' },
-			{ skill: 'React.js', percentage: '80%' },
-		],
-	},
-
-	{
-		title: 'Backend',
-		icon: backend,
-		skills: [
-			{ skill: 'Node.js', percentage: '80%' },
-			{ skill: 'Express', percentage: '65%' },
-			{ skill: 'MongoDB', percentage: '75%' },
-		],
-	},
-
-	{
-		title: 'Tools',
-		icon: tools,
-		skills: [
-			{ skill: 'Git & GitHub', percentage: '85%' },
-			{ skill: 'Visual Studio Code', percentage: '75%' },
-			{ skill: 'Responsive Design', percentage: '70%' },
-			{ skill: 'GNU/Emacs', percentage: '80%' },
-			{ skill: 'GNU/Linux', percentage: '70%' },
-		],
-	},
-
-	{
-		title: 'Soft Skills',
-		icon: softskills,
-		skills: [
-			{ skill: 'Problem-solving', percentage: '80%' },
-			{ skill: 'Collaboration', percentage: '85%' },
-			{ skill: 'Attention to Detail', percentage: '75%' },
-		],
-	},
-]; */
+export const SKILLS = [
+	{ img: html, title: 'HTML' },
+	{ img: css, title: 'CSS' },
+	{ img: js, title: 'Javascript' },
+	{ img: react, title: 'ReactJS' },
+	{ img: bootstrap, title: 'Bootstrap5' },
+	{ img: tailwinds, title: 'Tailwindscss' },
+	{ img: node, title: 'NodeJS' },
+	{ img: express, title: 'ExpressJS' },
+	{ img: mongo, title: 'MongoDB' },
+	{ img: git, title: 'Git' },
+	{ img: github, title: 'GitHub' },
+	{ img: linux, title: 'GNU/Linux' },
+];
 
 /* export const ACADEMIC_FORMATION = [
 	{
