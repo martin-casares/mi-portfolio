@@ -6,6 +6,7 @@ import { Projects } from './components/Projects';
 import { Contact } from './components/Contact';
 import { MiFooter } from './components/MiFooter';
 import { EXPERIENCE, PROJECTS } from './utils/data';
+import { Skills } from './components/Skills';
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 					<Hero />
 					<Projects id="prodjects" data={PROJECTS} />
 					<Experience id="experience" data={EXPERIENCE} />
+					<Skills />
 					<Contact />
 					<MiFooter />
 				</div>

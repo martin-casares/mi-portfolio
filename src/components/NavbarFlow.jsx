@@ -14,19 +14,19 @@ export const NavbarFlow = () => {
 			<Navbar.Collapse>
 				<a
 					href="#top"
-					className=" text-white hover:scale-110 hover:text-cyan-500 font-semibold"
+					className=" text-white hover:scale-110 hover:text-cyan-500 font-semibold "
 				>
 					Inicio
 				</a>
 				<a
 					href="#projects"
-					className="text-white hover:text-cyan-500 hover:scale-110 font-semibold"
+					className="text-white hover:text-cyan-500 hover:scale-110 font-semibold "
 				>
 					Proyectos
 				</a>
 				<a
 					href="#experience"
-					className="text-white hover:text-cyan-500 hover:scale-110 font-semibold"
+					className="text-white hover:text-cyan-500 hover:scale-110 font-semibold "
 				>
 					Experiencia
 				</a>
