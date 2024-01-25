@@ -5,7 +5,7 @@ import { Experience } from './components/Experience';
 import { Projects } from './components/Projects';
 import { Contact } from './components/Contact';
 import { MiFooter } from './components/MiFooter';
-import { EXPERIENCE, PROJECTS, SKILLS } from './utils/data';
+import { EXPERIENCE, PROJECTS, SKILLS } from './utils/data.jsx';
 import { Skills } from './components/Skills';
 
 function App() {

@@ -9,7 +9,7 @@ import curriculum from '../assets/cv-martin-casares.pdf';
 export const Hero = () => {
 	return (
 		<div className="py-20 mx-auto md:flex md:justify-between  md:items-center lg:w-[940px] ">
-			<div className="gap-5">
+			<div className="gap-x-5 mr-[6rem]">
 				<p className="text-white/80 text-[18px] md:text-4xl lg:text-3xl font-bold ">
 					Hello, I john
 				</p>
@@ -64,7 +64,11 @@ export const Hero = () => {
 				</nav>
 			</div>
 			<div>
-				<img src={logo} alt="" className="w-[370px] lg:w-[600px]" />
+				<img
+					src={logo}
+					alt=""
+					className="w-[370px] lg:w-[600px] md:ml-[6rem] md:mb-[6rem]"
+				/>
 			</div>
 		</div>
 	);

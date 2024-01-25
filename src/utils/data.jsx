@@ -11,6 +11,9 @@ import github from '../assets/img/github.png';
 import express from '../assets/img/express-js.png';
 import tailwinds from '../assets/img/tailwind.jpeg';
 
+import { SiTailwindcss, SiJavascript } from 'react-icons/si';
+import { FaReact, FaHtml5, FaCss3Alt, FaBootstrap } from 'react-icons/fa6';
+
 export const SKILLS = [
 	{ img: html, title: 'HTML' },
 	{ img: css, title: 'CSS' },
@@ -91,14 +94,21 @@ export const PROJECTS = [
 		title: 'projecto 1',
 		imageUrl: 'https://musical-cucurucho-e77839.netlify.app/img/work1.jpg',
 		body: 'Adipiscing at in tellus integer feugiat scelerisque variaucibus a pellen in tellus integer feugiat scelerisque ',
-		tags: ['React', 'Tailwidncss'],
+		tags: [
+			{ name: 'React', icon: <FaReact /> },
+			{ name: 'Tailwidncss', icon: <SiTailwindcss /> },
+		],
 	},
 
 	{
 		title: 'projecto 2',
 		imageUrl: 'https://musical-cucurucho-e77839.netlify.app/img/work2.jpg',
 		body: 'Cursus mattis molestie a, iaculis at erat pellentesque adipiscing commodo elit! in tellus integer feugiat scelerisque',
-		tags: ['HTML', 'CSS', 'Javascript'],
+		tags: [
+			{ name: 'HTML', icon: <FaHtml5 /> },
+			{ name: 'CSS', icon: <FaCss3Alt /> },
+			{ name: 'Javascript', icon: <SiJavascript /> },
+		],
 	},
 	/* 	{
 		title: 'projecto 3',
