@@ -1,4 +1,5 @@
 import { Navbar } from 'flowbite-react';
+import { Link } from 'react-scroll';
 import logo from '../assets/img/logo.png';
 
 export const NavbarFlow = () => {
@@ -12,36 +13,46 @@ export const NavbarFlow = () => {
 			</Navbar.Brand>
 			<Navbar.Toggle />
 			<Navbar.Collapse>
-				<a
-					href="#top"
-					className=" text-white hover:scale-110 hover:text-cyan-500 font-semibold "
+				<Link
+					to="hero"
+					className=" text-white hover:scale-110 hover:text-cyan-500 font-semibold cursor-pointer"
+					smooth={true}
+					duration={500}
 				>
 					Inicio
-				</a>
-				<a
-					href="#projects"
-					className="text-white hover:text-cyan-500 hover:scale-110 font-semibold "
+				</Link>
+				<Link
+					to="projects"
+					className="text-white hover:text-cyan-500 hover:scale-110 font-semibold cursor-pointer"
+					smooth={true}
+					duration={500}
 				>
 					Proyectos
-				</a>
-				<a
-					href="#experience"
-					className="text-white hover:text-cyan-500 hover:scale-110 font-semibold "
+				</Link>
+				<Link
+					to="experience"
+					className="text-white hover:text-cyan-500 hover:scale-110 font-semibold cursor-pointer"
+					smooth={true}
+					duration={500}
 				>
 					Experiencia
-				</a>
-				<a
-					href="#about"
-					className="text-white hover:text-cyan-500 hover:scale-110 font-semibold"
+				</Link>
+				<Link
+					to="skills"
+					className="text-white hover:text-cyan-500 hover:scale-110 font-semibold cursor-pointer"
+					smooth={true}
+					duration={500}
 				>
-					Sobre mi
-				</a>
-				<a
-					href="#contact"
-					className="text-white hover:text-cyan-500 hover:scale-110 font-semibold"
+					Habilidades
+				</Link>
+				<Link
+					to="contact"
+					className="text-white hover:text-cyan-500 hover:scale-110 font-semibold cursor-pointer"
+					smooth={true}
+					duration={500}
 				>
 					Contacto
-				</a>
+				</Link>
 			</Navbar.Collapse>
 		</Navbar>
 	);

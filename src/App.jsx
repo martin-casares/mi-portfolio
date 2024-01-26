@@ -15,9 +15,9 @@ function App() {
 				<div className="px-8">
 					<NavbarFlow />
 					<Hero />
-					<Projects id="prodjects" data={PROJECTS} />
+					<Projects id="projects" data={PROJECTS} />
 					<Experience id="experience" data={EXPERIENCE} />
-					<Skills id="skills" data={SKILLS} />
+					<Skills data={SKILLS} />
 					<Contact />
 					<MiFooter />
 				</div>

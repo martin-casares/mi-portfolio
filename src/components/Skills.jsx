@@ -3,7 +3,7 @@ import { GiSkills } from 'react-icons/gi';
 
 export const Skills = ({ data }) => {
 	return (
-		<div className="w-full mx-auto lg:w-[740px] py-10">
+		<div id="skills" className="w-full mx-auto lg:w-[740px] py-10">
 			<h2 className="flex gap-x-2 items-center text-2xl font-semibold mb-10">
 				<GiSkills className="size-5 " />
 				Habilidades

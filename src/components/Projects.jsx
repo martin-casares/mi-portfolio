@@ -5,7 +5,7 @@ import { IconButton } from './IconButton';
 
 export const Projects = ({ data }) => {
 	return (
-		<div className="w-full mx-auto lg:w-[740px] py-10">
+		<div id="projects" className="w-full mx-auto lg:w-[740px] py-10">
 			<h2 className="flex gap-x-2 items-center text-2xl font-semibold mb-10">
 				<LuCode2 className="size-7 " />
 				Projectos
