@@ -8,8 +8,11 @@ import curriculum from '../assets/cv-martin-casares.pdf';
 
 export const Hero = () => {
 	return (
-		<div className="py-20 mx-auto md:flex md:justify-between  md:items-center lg:w-[940px] ">
-			<div className="gap-x-5 mr-[6rem]">
+		<div
+			id="hero"
+			className="py-20 mx-auto md:flex md:justify-between  md:items-center lg:w-[940px] "
+		>
+			<div className=" lg:mr-[6rem] md:mr-[3px]">
 				<p className="text-white/80 text-[18px] md:text-4xl lg:text-3xl font-bold ">
 					Hello, I john
 				</p>
